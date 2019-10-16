@@ -32,4 +32,4 @@ npm run build
 ```
 
 ## Screenshoot
-![Dashboard](calculator.png "This is the Calculator's Captured")
+![Dashboard](captured/captured.png "This is the Calculator's Captured")

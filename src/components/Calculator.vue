@@ -1,5 +1,6 @@
 <template>
   <div class="calculator">
+    <div class="judul"><strong>CalVueJS</strong></div>
     <div class="display">{{current || '0'}}</div>
     <div @click="clear" class="btn">C</div>
     <div @click="sign" class="btn">+/-</div>
@@ -102,6 +103,13 @@ export default {
   grid-column: 1 / 5;
   background-color: rgb(146, 145, 145);
   color: white;
+}
+
+.judul {
+  padding: 10px;
+  margin: 0;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 20px;
 }
 
 .zero {
