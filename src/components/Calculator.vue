@@ -89,5 +89,33 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.calculator {
+  margin: 0 auto;
+  width: 400px;
+  font-size: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+}
 
+.display {
+  grid-column: 1 / 5;
+  background-color: rgb(146, 145, 145);
+  color: white;
+}
+
+.zero {
+  grid-column: 1 / 3;
+}
+
+.btn {
+  background-color: #F2F2F2;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: rgb(27, 153, 23);
+  color: white;
+}
 </style>
